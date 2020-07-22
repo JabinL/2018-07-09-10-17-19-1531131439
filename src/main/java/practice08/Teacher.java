@@ -1,9 +1,5 @@
 package practice08;
 
-import practice08.Klass;
-import practice08.Person;
-import practice08.Student;
-
 public class Teacher extends Person {
 
     private Klass klass;

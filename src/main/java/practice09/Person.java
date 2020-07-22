@@ -41,7 +41,8 @@ public class Person {
 
     @Override
     public boolean equals(Object obj) {
-        obj = (practice08.Person) obj;
-        return this.id == ((practice08.Person) obj).getId();
+         if(obj != null)
+             return this.id ==  ((Person) obj).getId();
+            return false;
     }
 }
